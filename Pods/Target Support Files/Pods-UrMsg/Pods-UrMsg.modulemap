@@ -1,0 +1,6 @@
+framework module Pods_UrMsg {
+  umbrella header "Pods-UrMsg-umbrella.h"
+
+  export *
+  module * { export * }
+}
