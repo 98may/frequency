@@ -15,13 +15,17 @@
 		0B62818B235DF00000E35CAF /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62818A235DF00000E35CAF /* WelcomeViewController.swift */; };
 		0B62818D235DF00B00E35CAF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62818C235DF00B00E35CAF /* RegisterViewController.swift */; };
 		0B62818F235DF01000E35CAF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62818E235DF01000E35CAF /* LoginViewController.swift */; };
-		0F208DEC26267A5C009E00B5 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F208DEA26267A5C009E00B5 /* MessageCell.swift */; };
-		0F208DED26267A5C009E00B5 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F208DEB26267A5C009E00B5 /* MessageCell.xib */; };
 		0F91E21B2619461E00F52A8F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F91E21A2619461E00F52A8F /* Constants.swift */; };
 		0FB9671726343F820025F9FF /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0FB9671626343F820025F9FF /* IQKeyboardManagerSwift */; };
 		6C37F5DD2B15563800303E52 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C37F5DC2B15563800303E52 /* GoogleService-Info.plist */; };
 		6C37F5E12B15832400303E52 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C37F5E02B15832400303E52 /* Message.swift */; };
 		6C91B4AF2B233DA900393A62 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C91B4AE2B233DA900393A62 /* MainViewController.swift */; };
+		6C91B4D32B2342B300393A62 /* AddButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C91B4CC2B2342B200393A62 /* AddButtonView.swift */; };
+		6C91B4D42B2342B300393A62 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C91B4CD2B2342B300393A62 /* MainView.swift */; };
+		6C91B4D52B2342B300393A62 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C91B4CE2B2342B300393A62 /* AddItemView.swift */; };
+		6C91B4D62B2342B300393A62 /* HabitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C91B4CF2B2342B300393A62 /* HabitDetailView.swift */; };
+		6C91B4D72B2342B300393A62 /* HabitListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C91B4D02B2342B300393A62 /* HabitListView.swift */; };
+		6C91B4D82B2342B300393A62 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C91B4D12B2342B300393A62 /* Model.swift */; };
 		CE9715A490671706C8ED0559 /* Pods_UrMsg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44015B5F7671C2C7E0C41A34 /* Pods_UrMsg.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,8 +39,6 @@
 		0B62818A235DF00000E35CAF /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		0B62818C235DF00B00E35CAF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		0B62818E235DF01000E35CAF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		0F208DEA26267A5C009E00B5 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
-		0F208DEB26267A5C009E00B5 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		0F91E21A2619461E00F52A8F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		424944974088E4E53F1FD8AF /* Pods-UrMsg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrMsg.debug.xcconfig"; path = "Target Support Files/Pods-UrMsg/Pods-UrMsg.debug.xcconfig"; sourceTree = "<group>"; };
 		44015B5F7671C2C7E0C41A34 /* Pods_UrMsg.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UrMsg.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,12 @@
 		6C37F5DE2B15753000303E52 /* UrMsg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UrMsg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C37F5E02B15832400303E52 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		6C91B4AE2B233DA900393A62 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6C91B4CC2B2342B200393A62 /* AddButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddButtonView.swift; sourceTree = "<group>"; };
+		6C91B4CD2B2342B300393A62 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		6C91B4CE2B2342B300393A62 /* AddItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		6C91B4CF2B2342B300393A62 /* HabitDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HabitDetailView.swift; sourceTree = "<group>"; };
+		6C91B4D02B2342B300393A62 /* HabitListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HabitListView.swift; sourceTree = "<group>"; };
+		6C91B4D12B2342B300393A62 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		A3F36BAE4D43702564F279D6 /* Pods-UrMsg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrMsg.release.xcconfig"; path = "Target Support Files/Pods-UrMsg/Pods-UrMsg.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +85,7 @@
 				0B628178235DEE8100E35CAF /* SceneDelegate.swift */,
 				0B628194235DF03A00E35CAF /* Models */,
 				0B628193235DF03400E35CAF /* Views */,
+				6C91B4B02B233FC500393A62 /* Habits */,
 				0B628192235DF02000E35CAF /* Controllers */,
 				0B62817F235DEE8400E35CAF /* Assets.xcassets */,
 				0B628181235DEE8400E35CAF /* LaunchScreen.storyboard */,
@@ -102,8 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				0B62817C235DEE8100E35CAF /* Main.storyboard */,
-				0F208DEA26267A5C009E00B5 /* MessageCell.swift */,
-				0F208DEB26267A5C009E00B5 /* MessageCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -123,6 +130,19 @@
 				A3F36BAE4D43702564F279D6 /* Pods-UrMsg.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		6C91B4B02B233FC500393A62 /* Habits */ = {
+			isa = PBXGroup;
+			children = (
+				6C91B4CC2B2342B200393A62 /* AddButtonView.swift */,
+				6C91B4CE2B2342B300393A62 /* AddItemView.swift */,
+				6C91B4CF2B2342B300393A62 /* HabitDetailView.swift */,
+				6C91B4D02B2342B300393A62 /* HabitListView.swift */,
+				6C91B4CD2B2342B300393A62 /* MainView.swift */,
+				6C91B4D12B2342B300393A62 /* Model.swift */,
+			);
+			path = Habits;
 			sourceTree = "<group>";
 		};
 		CCF1A312D1C1F7FA8367E30C /* Frameworks */ = {
@@ -200,7 +220,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B628183235DEE8400E35CAF /* LaunchScreen.storyboard in Resources */,
-				0F208DED26267A5C009E00B5 /* MessageCell.xib in Resources */,
 				6C37F5DD2B15563800303E52 /* GoogleService-Info.plist in Resources */,
 				0B628180235DEE8400E35CAF /* Assets.xcassets in Resources */,
 				0B62817E235DEE8100E35CAF /* Main.storyboard in Resources */,
@@ -256,15 +275,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C91B4D82B2342B300393A62 /* Model.swift in Sources */,
 				0B62818B235DF00000E35CAF /* WelcomeViewController.swift in Sources */,
 				0B628177235DEE8100E35CAF /* AppDelegate.swift in Sources */,
 				0B628179235DEE8100E35CAF /* SceneDelegate.swift in Sources */,
 				0B62818F235DF01000E35CAF /* LoginViewController.swift in Sources */,
 				0F91E21B2619461E00F52A8F /* Constants.swift in Sources */,
 				6C37F5E12B15832400303E52 /* Message.swift in Sources */,
+				6C91B4D62B2342B300393A62 /* HabitDetailView.swift in Sources */,
+				6C91B4D52B2342B300393A62 /* AddItemView.swift in Sources */,
+				6C91B4D42B2342B300393A62 /* MainView.swift in Sources */,
 				0B62818D235DF00B00E35CAF /* RegisterViewController.swift in Sources */,
-				0F208DEC26267A5C009E00B5 /* MessageCell.swift in Sources */,
+				6C91B4D32B2342B300393A62 /* AddButtonView.swift in Sources */,
 				6C91B4AF2B233DA900393A62 /* MainViewController.swift in Sources */,
+				6C91B4D72B2342B300393A62 /* HabitListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

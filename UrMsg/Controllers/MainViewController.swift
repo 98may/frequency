@@ -1,13 +1,5 @@
-//
-//  MainViewController.swift
-//  UrMsg
-//
-//  Created by AyanMao on 12/8/23.
-//  Copyright © 2023 Angela Yu. All rights reserved.
-//
-
-import Foundation
 import UIKit
+import SwiftUI
 import Firebase
 
 class MainViewController: UIViewController {
@@ -18,11 +10,26 @@ class MainViewController: UIViewController {
         // Set up the view's properties
         view.backgroundColor = .white // Set the background color or any other properties
 
-        // Add subviews and set up constraints or frames
-        // For example, to add a label:
-        let label = UILabel(frame: CGRect(x: 100, y: 100, width: 200, height: 50))
-        label.text = "Main View Controller"
-        view.addSubview(label)
-        // ... Add other UI setup code here ...
+        // Initialize your SwiftUI view
+        let swiftUIView = MainView()
+
+        // Use a UIHostingController to wrap your SwiftUI view
+        let hostingController = UIHostingController(rootView: swiftUIView)
+
+        // Make sure the hosting controller's view will resize correctly
+        hostingController.view.translatesAutoresizingMaskIntoConstraints = false
+
+        // Add the SwiftUI view as a child view controller
+        addChild(hostingController)
+        view.addSubview(hostingController.view)
+        hostingController.didMove(toParent: self)
+
+        // Set up constraints for the hosting controller's view
+        NSLayoutConstraint.activate([
+            hostingController.view.topAnchor.constraint(equalTo: view.topAnchor),
+            hostingController.view.leftAnchor.constraint(equalTo: view.leftAnchor),
+            hostingController.view.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+            hostingController.view.rightAnchor.constraint(equalTo: view.rightAnchor)
+        ])
     }
 }

@@ -14,7 +14,6 @@ class LoginViewController: UIViewController {
                 if let e = error {
                     print(e.localizedDescription)
                 } else {
-                    // Instantiate MainViewController programmatically
                     let mainVC = MainViewController()
                     mainVC.modalPresentationStyle = .fullScreen // For full-screen presentation
                     strongSelf.present(mainVC, animated: true, completion: nil)
