@@ -19,7 +19,7 @@ class WelcomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         titleLabel.text = ""
-        let titleText = "UrMsg" // Your Messenger
+        let titleText = "Frequency" // Your Frequency Tracker
         self.titleLabel.text?.append(titleText)
        
     }
