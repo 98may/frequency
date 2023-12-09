@@ -119,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				6C37F5E02B15832400303E52 /* Message.swift */,
+				6C91B4D12B2342B300393A62 /* Model.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -140,7 +141,6 @@
 				6C91B4CF2B2342B300393A62 /* HabitDetailView.swift */,
 				6C91B4D02B2342B300393A62 /* HabitListView.swift */,
 				6C91B4CD2B2342B300393A62 /* MainView.swift */,
-				6C91B4D12B2342B300393A62 /* Model.swift */,
 			);
 			path = Habits;
 			sourceTree = "<group>";

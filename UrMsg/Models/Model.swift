@@ -6,7 +6,6 @@
 import Foundation
 import SwiftUI
 
-// 一个函数，返回了一个闭包，用来持有 id，做到自增长 id
 func _generateID() -> () -> Int {
     var id = 0
     
